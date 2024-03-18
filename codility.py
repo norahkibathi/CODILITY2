@@ -1,5 +1,8 @@
 ##the code has presented  a list of strings called S. Our task is to find a pair of strings in this list that share a common letter at the same position. I
-##the first step will be We’ll compare each pair of strings in the list
+##the first step will be we’ll compare each pair of strings in the list
+# Then for each pair, we’ll check if the letters at the same position are equal.
+#If we find a pair with a common letter, we’ll return the indices of those strings and the position.
+# otherwise, if no such pair exists, we’ll return an empty array.
 def solution(S):
     # Iterate through each pair of strings in S
     for i in range(len(S)):
